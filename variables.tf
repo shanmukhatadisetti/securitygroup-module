@@ -10,6 +10,7 @@ variable "description" {
 
 variable "sg_tags" {
     type = map(string)
+    default = {}
   
 }
 
